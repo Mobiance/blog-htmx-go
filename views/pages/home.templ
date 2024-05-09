@@ -1,0 +1,16 @@
+package pages
+
+import(
+    "github.com/mobiance/goblog/views/shared"
+    "github.com/mobiance/goblog/views/components"
+)
+
+templ HomePage(){
+    @shared.Page("Home"){
+        @components.Hero()
+    }
+}
+
+templ ProjectsPage(){
+    @components.Projects()
+}
